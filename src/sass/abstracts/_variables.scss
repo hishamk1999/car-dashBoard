@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// font-family: 'DM Sans', sans-serif;
+$text-font-stack: "DM Sans", sans-serif !default;
+
+/* These the three primary colors*/
+$primary-dark: #242731;
+$primary-white: #e0e4e7;
+$primary-purple: #a162f7;
+
+/* These the six secondary colors*/
+$secondary-purple: #a162f7;
+$secondary-blue: #2884ff;
+$secondary-yellow: #f6cc0d;
+$secondary-red: #ff6370;
+$secondary-green: #70cf97;
+$secondary-orange: #ff764c;

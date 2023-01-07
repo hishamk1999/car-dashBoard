@@ -1,0 +1,71 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+	box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ */
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+/**
+ * Make all elements from the DOM margin and padding 0
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+/**
+ * Basic styles for links
+ */
+a {
+	text-decoration: none;
+}
+
+/**
+ * Basic styles for list 
+ */
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+/**
+ * Basic styles for H1
+ */
+h1 {
+	font: bold 30px $text-font-stack;
+}
+
+/**
+ * Basic styles for H2
+ */
+h2 {
+	font: bold 24px $text-font-stack;
+}
+
+/**
+ * Basic styles for H3
+ */
+h3 {
+	font: bold 20px $text-font-stack;
+}
+
+/**
+ * Basic styles for p
+ */
+p {
+	font: bold 18px $text-font-stack;
+}
