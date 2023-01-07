@@ -6,15 +6,18 @@
 /// font-family: 'DM Sans', sans-serif;
 $text-font-stack: "DM Sans", sans-serif !default;
 
+//These Default white color
+$default-white: #ffffff !default;
+
 /* These the three primary colors*/
-$primary-dark: #242731;
-$primary-white: #e0e4e7;
-$primary-purple: #a162f7;
+$primary-dark: #242731 !default;
+$primary-white: #e0e4e7 !default;
+$primary-purple: #a162f7 !default;
 
 /* These the six secondary colors*/
-$secondary-purple: #a162f7;
-$secondary-blue: #2884ff;
-$secondary-yellow: #f6cc0d;
-$secondary-red: #ff6370;
-$secondary-green: #70cf97;
-$secondary-orange: #ff764c;
+$secondary-purple: #a162f7 !default;
+$secondary-blue: #2884ff !default;
+$secondary-yellow: #f6cc0d !default;
+$secondary-red: #ff6370 !default;
+$secondary-green: #70cf97 !default;
+$secondary-orange: #ff764c !default;
