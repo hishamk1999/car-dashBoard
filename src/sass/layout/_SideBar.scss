@@ -1,0 +1,10 @@
+.SideBar {
+	padding: 30px 50px 30px 24px;
+	background-color: $default-white;
+	.SideBar__logo {
+		margin-bottom: 35px;
+		h2 {
+			color: $primary-dark;
+		}
+	}
+}
