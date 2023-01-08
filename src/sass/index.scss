@@ -3,3 +3,9 @@
 
 // 2. Base stuff
 @import "base/base", "base/fonts", "base/typography";
+
+// 3. Layout-related sections
+@import "layout/SideBar";
+
+// 4. Components
+@import "components/CustomLink";
