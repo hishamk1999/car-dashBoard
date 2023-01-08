@@ -1,0 +1,15 @@
+.CustomLink {
+	width: 174px;
+	padding: 8px 0 8px 8px;
+	border-radius: 6px;
+	transition: background 0.25s ease-in-out;
+	color: $gray-dark-2;
+	svg {
+		color: $gray-dark-2;
+		margin-right: 9px;
+	}
+	&:hover,&.active {
+		color: $gray-dark-2;
+		background-color: $bg-hover;
+	}
+}
