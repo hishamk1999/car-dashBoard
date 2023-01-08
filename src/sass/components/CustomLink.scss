@@ -4,11 +4,13 @@
 	border-radius: 6px;
 	transition: background 0.25s ease-in-out;
 	color: $gray-dark-2;
+	margin-bottom: 10px;
 	svg {
 		color: $gray-dark-2;
 		margin-right: 9px;
 	}
-	&:hover,&.active {
+	&:hover,
+	&.active {
 		color: $gray-dark-2;
 		background-color: $bg-hover;
 	}
