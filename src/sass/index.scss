@@ -8,7 +8,8 @@
 @import "layout/SideBar";
 
 // 4. Components
-@import "components/CustomLink", "components/UpperBar";
+@import "components/CustomLink", "components/UpperBar",
+	"components/ProgressCard";
 
 // 4. Pages
-@import "pages/RootLayout";
+@import "pages/RootLayout", "pages/Dashboard";

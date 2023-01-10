@@ -11,8 +11,15 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // Sass
 import "./sass/index.scss";
 import RootLayout from "./pages/RootLayout";
+import Dashboard from "./pages/Dashboard";
 
-const router = createBrowserRouter([{ path: "/", element: <RootLayout /> }]);
+const router = createBrowserRouter([
+	{
+		path: "/",
+		element: <RootLayout />,
+		children: [{ index: true, element: <Dashboard /> }],
+	},
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
