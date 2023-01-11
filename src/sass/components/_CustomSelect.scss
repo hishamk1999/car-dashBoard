@@ -1,0 +1,25 @@
+.CustomSelect {
+	position: relative;
+	select {
+		appearance: none;
+		width: 122px;
+		padding: 6px 20px;
+		border-radius: 22.5px;
+		border: none;
+		color: $gray-dark-2;
+		&:focus {
+			outline: none;
+			+ .sort-down {
+				transform: rotate(180deg);
+			}
+		}
+	}
+	.sort-down {
+		position: absolute;
+		right: 20px;
+		top: 6px;
+		transform: rotate(0deg);
+		transition: all 0.25s ease;
+		pointer-events: none;
+	}
+}

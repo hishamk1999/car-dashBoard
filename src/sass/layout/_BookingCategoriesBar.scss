@@ -1,0 +1,22 @@
+.BookingCategoriesBar {
+	.CoordinatorTools {
+		button {
+			height: 44px;
+			width: 44px;
+			background-color: $default-white;
+			border: none;
+			border-radius: 50%;
+			transition: background-color 0.25s ease-in-out;
+			path {
+				color: #777e91;
+				transition: color 0.25s ease-in-out;
+			}
+			&:hover {
+				background-color: $primary-purple;
+				path {
+					fill: #fff;
+				}
+			}
+		}
+	}
+}

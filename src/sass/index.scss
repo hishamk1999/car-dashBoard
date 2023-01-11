@@ -5,11 +5,11 @@
 @import "base/base", "base/fonts", "base/typography";
 
 // 3. Layout-related sections
-@import "layout/SideBar";
+@import "layout/SideBar", "layout/BookingCategoriesBar";
 
 // 4. Components
 @import "components/CustomLink", "components/UpperBar",
-	"components/ProgressCard";
+	"components/ProgressCard", "components/CustomSelect";
 
 // 4. Pages
-@import "pages/RootLayout", "pages/Dashboard";
+@import "pages/RootLayout", "pages/Dashboard", "pages/Booking";
