@@ -3,4 +3,10 @@
 	h1 {
 		margin-bottom: 34px;
 	}
+	.row {
+		height: auto;
+		overflow: auto;
+		max-height: 646px;
+		min-height: 150px;
+	}
 }

@@ -1,0 +1,72 @@
+.BookingCarCard {
+	// global class utilities
+	.custom-mute {
+		color: $gray-dark-3;
+		font-weight: 400;
+	}
+	.card {
+		padding: 24px;
+		border-radius: 16px;
+		// Header of the Card
+		.card-head {
+			.title {
+				margin-bottom: 4px;
+				button {
+					border: none;
+					background-color: transparent;
+					&.liked {
+						path {
+							stroke: red;
+							color: red;
+						}
+					}
+					&.unLiked {
+						path {
+							stroke: #a4a5a6;
+							color: transparent;
+						}
+						&:hover {
+							path {
+								stroke: red;
+								color: red;
+							}
+							animation: heartbeat 1.15s ease infinite;
+						}
+					}
+					svg {
+						path {
+							transition: all 0.15s ease-in-out;
+							color: transparent;
+						}
+					}
+				}
+			}
+			p {
+				font-size: 16px;
+				color: $gray-dark-3;
+			}
+		}
+		// Card Image
+		.card-img {
+			margin-bottom: 21px;
+		}
+		// Card Footer
+		.card-bottom {
+		}
+	}
+}
+
+// Heartbeat Animation
+@keyframes heartbeat {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

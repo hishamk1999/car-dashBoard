@@ -9,7 +9,8 @@
 
 // 4. Components
 @import "components/CustomLink", "components/UpperBar",
-	"components/ProgressCard", "components/CustomSelect";
+	"components/ProgressCard", "components/CustomSelect",
+	"components/BookingCarCard";
 
 // 4. Pages
 @import "pages/RootLayout", "pages/Dashboard", "pages/Booking";
